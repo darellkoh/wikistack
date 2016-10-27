@@ -1,0 +1,34 @@
+{
+  "name": "wikistack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -e html,js,css ./app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darellkoh/wikistack.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darellkoh/wikistack/issues"
+  },
+  "homepage": "https://github.com/darellkoh/wikistack#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "marked": "^0.3.6",
+    "morgan": "^1.7.0",
+    "pg": "^6.0.3",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^3.23.6",
+    "swig": "^1.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.10.0"
+  }
+}
